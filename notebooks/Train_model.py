@@ -69,8 +69,8 @@ def get_mean_df(df):
     df5 = df5.drop_duplicates()
     return df5
 
-
-df = pd.read_csv('../data/vaspsol_data_3_2_2023_balanced.csv')
+csv_path = '/blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/data/vaspsol_data_3_2_2023_balanced.csv'
+df = pd.read_csv(csv_path)
 print(df)
 df['error'] = df['error'].abs()
 df = df[df['error'] < 10]
@@ -93,12 +93,12 @@ TAU_default = 0.000525
 # # match up the default error back to the original dataframe
 # df = pd.merge(df, df_to_append, on=['SoluteName'])
 # # this expanded the number of rows in the dataframe. This is not what we want
-df = df.drop_duplicates('Unnamed: 0')
+#df = df.drop_duplicates('Unnamed: 0')
 
 groups = df[df['Solvent']=='water'].groupby(['NC_K', 'SIGMA_K', 'TAU'])
 # print(df)
 
-df_test = pd.read_csv('../data/vaspsol_data_3_2_2023.csv')
+df_test = pd.read_csv(csv_path)
 # we want the NC_K, SIGMA_K and TAU combinations that are not in 
 # the training set
 df_test = df_test[~df_test[['NC_K', 'SIGMA_K', 'TAU']].isin(df[['NC_K', 'SIGMA_K', 'TAU']]).all(axis=1)]
@@ -118,9 +118,14 @@ print('Number of groups: ', num_groups)
 
 # get the number of groups to use for training
 num_train_groups = int(num_groups*split)
+print('Number of groups to use for training: ', num_train_groups)
+print('Number of groups to use for testing: ', num_groups - num_train_groups)
 # get the indicies of the groups to use for training
-train_indicies = np.random.choice(indicies, size=num_train_groups, replace=False)
-train_indicies = np.concatenate(train_indicies.flatten())
+print(len(indicies))
+
+idx_temp = np.arange(len(indicies))
+train_indicies = [indicies[i] for i in np.random.choice(idx_temp, size=num_train_groups, replace=False)]
+train_indicies = np.concatenate(train_indicies)
 # get the indicies of the groups to use for testing
 test_indicies = np.array([i for i in np.concatenate(indicies) if i not in train_indicies])
 train_df = df.iloc[train_indicies]
@@ -162,8 +167,8 @@ X_test = torch.from_numpy(X_test).float().cuda().reshape(-1, n_features_train)
 
 model = kmk.NN(n_inputs=n_features_train, 
                      n_outputs=1, 
-                     layer_size=10, 
-                     layers=5)
+                     layer_size=60, 
+                     layers=2)
 
 
 def get_n_parmas(model):
@@ -172,16 +177,19 @@ def get_n_parmas(model):
         n_params += param.numel()
     return n_params
 n_params = get_n_parmas(model)
+print('Model architecture:')
+print(model)
 print(f'The number of parameters in the model is {n_params}')
 n_epochs = 1001
-batch_size = 4
+batch_size = 32
 lr = 0.0001
 losses = kmk.run_Pytorch(model, X_train, y_train, 
                                n_epochs=n_epochs, 
                                batch_size=batch_size, 
                                learning_rate=lr,
                                optimizer=torch.optim.Adam(model.parameters(), 
-                                                          lr=lr))
+                                                          lr=lr,
+                                                          weight_decay=0.001))
 
 import matplotlib.pyplot as plt
 # create a professional learning curve plot function
@@ -225,6 +233,12 @@ with open(filename, 'wb') as f:
 # move the model to ./models/
 shutil.move(filename, './models/')
 
+# we also need to save the scaler
+scaler_filename = f'scaler_{model_string}{date_string}.pkl'
+with open(scaler_filename, 'wb') as f:
+    pickle.dump(scaler, f)
+# move the scaler to ./models/
+shutil.move(scaler_filename, './models/')
 
 fig, ax = plt.subplots(1, 1, figsize=(10, 10))
 model = model.to('cuda')

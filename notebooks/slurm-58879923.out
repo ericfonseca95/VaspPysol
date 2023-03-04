@@ -1,0 +1,1989 @@
+2023-03-04 16:27:24,687 - distributed.nanny - INFO -         Start Nanny at: 'tcp://172.16.199.244:37435'
+2023-03-04 16:27:25,269 - distributed.worker - INFO -       Start worker at: tcp://172.16.199.244:46356
+2023-03-04 16:27:25,269 - distributed.worker - INFO -          Listening to: tcp://172.16.199.244:46356
+2023-03-04 16:27:25,269 - distributed.worker - INFO -           Worker name:             SLURMCluster-1
+2023-03-04 16:27:25,269 - distributed.worker - INFO -          dashboard at:       172.16.199.244:33778
+2023-03-04 16:27:25,269 - distributed.worker - INFO - Waiting to connect to:    tcp://10.13.55.17:40034
+2023-03-04 16:27:25,269 - distributed.worker - INFO - -------------------------------------------------
+2023-03-04 16:27:25,269 - distributed.worker - INFO -               Threads:                          1
+2023-03-04 16:27:25,269 - distributed.worker - INFO -                Memory:                 119.21 GiB
+2023-03-04 16:27:25,269 - distributed.worker - INFO -       Local Directory: /scratch/local/58879923/dask-worker-space/worker-ahtnmg3a
+2023-03-04 16:27:25,269 - distributed.worker - INFO - -------------------------------------------------
+2023-03-04 16:27:26,133 - distributed.worker - INFO -         Registered to:    tcp://10.13.55.17:40034
+2023-03-04 16:27:26,133 - distributed.worker - INFO - -------------------------------------------------
+2023-03-04 16:27:26,133 - distributed.core - INFO - Starting established connection to tcp://10.13.55.17:40034
+2023-03-04 16:29:25,837 - distributed.core - INFO - Event loop was unresponsive in Worker for 4.88s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+/blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/VAC
+/blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_3.0263157894736843e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE
+FOUND a VACUUM RUN
+FIXED LAMBDA_D_K correct in file
+FOUND ERROR IN VAC VASPRUN, COPYING FILES ANYWAY
+COPIED  WAVECAR  from VAC
+COPIED  CONTCAR  from VAC
+COPIED  POSCAR  from VAC
+COPIED  INCAR  from VAC
+COPIED  KPOINTS  from VAC
+COPIED  POTCAR  from VAC
+ADDING PROPERTIES : water
+[78.36]
+ADDING PROPERTIES : water
+LSOL Tag not Found ... adding to file now...
+NC_K Tag not Found ... adding to file now...
+TAU Tag not Found ... adding to file now...
+LRHOB Tag not Found ... adding to file now...
+[78.36]
+EB_K Tag not Found ... adding to file now...
+STARTING VASP SOLVATION CALC
+ running on   32 total cores
+ distrk:  each k-point on   32 cores,    1 groups
+ distr:  one band on    8 cores,    4 groups
+ vasp.6.3.0 20Jan22 (build Feb 18 2022 07:37:30) complex                        
+  
+ POSCAR found :  0 types and       0 ions
+ scaLAPACK will be used
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_3.0263157894736843e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B3C0CDA4555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_3.0263157894736843e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B3A1936E555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_3.0263157894736843e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B6A330E9555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_3.0263157894736843e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B0F5E950555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_3.0263157894736843e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B6278F10555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_3.0263157894736843e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEBE8141555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_3.0263157894736843e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B32EA331555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_3.0263157894736843e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AD8B630D555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_3.0263157894736843e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AD4F957D555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_3.0263157894736843e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AE801222555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_3.0263157894736843e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEB89EAE555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_3.0263157894736843e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B4331517555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_3.0263157894736843e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B4438527555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_3.0263157894736843e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B5FED319555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_3.0263157894736843e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B36B5223555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_3.0263157894736843e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B0706D79555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_3.0263157894736843e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B7F53DC5555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_3.0263157894736843e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002BA6C76A7555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_3.0263157894736843e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B97EF6B0555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_3.0263157894736843e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B07F67B1555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_3.0263157894736843e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B5FD7DE5555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_3.0263157894736843e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B36E88FD555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_3.0263157894736843e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B421A034555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_3.0263157894736843e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B7050197555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_3.0263157894736843e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AF8B9436555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_3.0263157894736843e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B9A1144F555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_3.0263157894736843e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B53F38FC555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_3.0263157894736843e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002BA5E09DA555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_3.0263157894736843e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B1BE2EC0555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_3.0263157894736843e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B45A9708555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_3.0263157894736843e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B9B36AEC555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_3.0263157894736843e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AE6473ED555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[58736,1],21]
+  Exit code:    24
+--------------------------------------------------------------------------
+FIXED LAMBDA_D_K correct in file
+/blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/VAC
+/blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_8.289473684210526e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE
+FOUND a VACUUM RUN
+FIXED LAMBDA_D_K correct in file
+FOUND ERROR IN VAC VASPRUN, COPYING FILES ANYWAY
+COPIED  WAVECAR  from VAC
+COPIED  CONTCAR  from VAC
+COPIED  POSCAR  from VAC
+COPIED  INCAR  from VAC
+COPIED  KPOINTS  from VAC
+COPIED  POTCAR  from VAC
+ADDING PROPERTIES : water
+[78.36]
+ADDING PROPERTIES : water
+LSOL Tag not Found ... adding to file now...
+NC_K Tag not Found ... adding to file now...
+TAU Tag not Found ... adding to file now...
+LRHOB Tag not Found ... adding to file now...
+[78.36]
+EB_K Tag not Found ... adding to file now...
+STARTING VASP SOLVATION CALC
+ running on   32 total cores
+ distrk:  each k-point on   32 cores,    1 groups
+ distr:  one band on    8 cores,    4 groups
+ vasp.6.3.0 20Jan22 (build Feb 18 2022 07:37:30) complex                        
+  
+ POSCAR found :  0 types and       0 ions
+ scaLAPACK will be used
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_8.289473684210526e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B66AC223555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_8.289473684210526e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B9522DF0555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_8.289473684210526e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B7D0231C555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_8.289473684210526e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B2CD4EB3555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_8.289473684210526e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B1C8D356555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_8.289473684210526e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B95DD0F9555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_8.289473684210526e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B8B6D02F555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_8.289473684210526e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AE61895D555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_8.289473684210526e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B9C17968555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_8.289473684210526e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B7A5B72C555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_8.289473684210526e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002ABCBF2F7555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_8.289473684210526e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B0A481F3555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_8.289473684210526e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B060E69B555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_8.289473684210526e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AFB54013555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_8.289473684210526e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B79651D3555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_8.289473684210526e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AAEB9BD4555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_8.289473684210526e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B35711CC555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_8.289473684210526e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B2FA7DCC555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_8.289473684210526e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B2FAFE70555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_8.289473684210526e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B260F733555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_8.289473684210526e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B1AF1C5A555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_8.289473684210526e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B2E3AB24555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_8.289473684210526e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002ACAD1AFA555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_8.289473684210526e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B461F4EE555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_8.289473684210526e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B463F94A555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_8.289473684210526e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B0786647555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_8.289473684210526e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AB247E4E555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_8.289473684210526e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B12BDD74555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_8.289473684210526e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B19711D3555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_8.289473684210526e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B9B31064555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_8.289473684210526e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B994C6D5555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_8.289473684210526e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AF32CDD0555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[58573,1],17]
+  Exit code:    24
+--------------------------------------------------------------------------
+FIXED LAMBDA_D_K correct in file
+/blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/VAC
+/blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_9.868421052631579e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE
+FOUND a VACUUM RUN
+FIXED LAMBDA_D_K correct in file
+FOUND ERROR IN VAC VASPRUN, COPYING FILES ANYWAY
+COPIED  WAVECAR  from VAC
+COPIED  CONTCAR  from VAC
+COPIED  POSCAR  from VAC
+COPIED  INCAR  from VAC
+COPIED  KPOINTS  from VAC
+COPIED  POTCAR  from VAC
+ADDING PROPERTIES : water
+[78.36]
+ADDING PROPERTIES : water
+LSOL Tag not Found ... adding to file now...
+NC_K Tag not Found ... adding to file now...
+TAU Tag not Found ... adding to file now...
+LRHOB Tag not Found ... adding to file now...
+[78.36]
+EB_K Tag not Found ... adding to file now...
+STARTING VASP SOLVATION CALC
+ running on   32 total cores
+ distrk:  each k-point on   32 cores,    1 groups
+ distr:  one band on    8 cores,    4 groups
+ vasp.6.3.0 20Jan22 (build Feb 18 2022 07:37:30) complex                        
+  
+ POSCAR found :  0 types and       0 ions
+ scaLAPACK will be used
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_9.868421052631579e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B8D4B71B555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_9.868421052631579e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B054466E555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_9.868421052631579e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AB984FEF555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_9.868421052631579e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AABEB39E555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_9.868421052631579e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B33337FA555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_9.868421052631579e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AE0BD523555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_9.868421052631579e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B175A4E2555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_9.868421052631579e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AE78DEC7555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_9.868421052631579e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002ADEA0808555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_9.868421052631579e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B1818035555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_9.868421052631579e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B4D46162555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_9.868421052631579e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002ADB30D94555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_9.868421052631579e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AE850DBB555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_9.868421052631579e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B1285AF4555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_9.868421052631579e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B23A05D3555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_9.868421052631579e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B7DCB999555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_9.868421052631579e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002ADBE343C555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_9.868421052631579e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B0831D81555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_9.868421052631579e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B7B959C4555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_9.868421052631579e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AB86EBC0555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_9.868421052631579e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002ABDDA8B1555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_9.868421052631579e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002BA808C48555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_9.868421052631579e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B23A06CC555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_9.868421052631579e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B8438060555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_9.868421052631579e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B907A030555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_9.868421052631579e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B5940EF2555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_9.868421052631579e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B09F67EA555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_9.868421052631579e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AADB2CEB555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_9.868421052631579e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B549702D555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_9.868421052631579e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AD0DDC0B555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_9.868421052631579e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AD3F00D4555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_9.868421052631579e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002BA6EC4B2555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[59299,1],30]
+  Exit code:    24
+--------------------------------------------------------------------------
+FIXED LAMBDA_D_K correct in file
+/blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/VAC
+/blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1447368421052632e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE
+FOUND a VACUUM RUN
+FIXED LAMBDA_D_K correct in file
+FOUND ERROR IN VAC VASPRUN, COPYING FILES ANYWAY
+COPIED  WAVECAR  from VAC
+COPIED  CONTCAR  from VAC
+COPIED  POSCAR  from VAC
+COPIED  INCAR  from VAC
+COPIED  KPOINTS  from VAC
+COPIED  POTCAR  from VAC
+ADDING PROPERTIES : water
+[78.36]
+ADDING PROPERTIES : water
+LSOL Tag not Found ... adding to file now...
+NC_K Tag not Found ... adding to file now...
+TAU Tag not Found ... adding to file now...
+LRHOB Tag not Found ... adding to file now...
+[78.36]
+EB_K Tag not Found ... adding to file now...
+STARTING VASP SOLVATION CALC
+ running on   32 total cores
+ distrk:  each k-point on   32 cores,    1 groups
+ distr:  one band on    8 cores,    4 groups
+ vasp.6.3.0 20Jan22 (build Feb 18 2022 07:37:30) complex                        
+  
+ POSCAR found :  0 types and       0 ions
+ scaLAPACK will be used
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1447368421052632e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B25F6A0A555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1447368421052632e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AD954AA5555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1447368421052632e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002ADA1B07A555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1447368421052632e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B8FDB0BA555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1447368421052632e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002ADE1FEBB555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1447368421052632e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AE0B259F555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1447368421052632e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B4E5D151555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1447368421052632e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B571EA55555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1447368421052632e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B1CE56E1555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1447368421052632e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B91E1034555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1447368421052632e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002BA83C03C555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1447368421052632e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B7200BAF555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1447368421052632e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B8BCEDDD555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1447368421052632e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B39F25A9555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1447368421052632e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002ACC39B2D555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1447368421052632e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B30300CC555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1447368421052632e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B2D7737C555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1447368421052632e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002ABD23B6D555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1447368421052632e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B618105D555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1447368421052632e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AAEE853B555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1447368421052632e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B96B4004555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1447368421052632e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AF1E5BD0555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1447368421052632e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B082D460555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1447368421052632e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AF40ADC1555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1447368421052632e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B2327DF5555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1447368421052632e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B74C9FBC555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1447368421052632e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B3A75784555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1447368421052632e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B9F31CA7555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1447368421052632e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B51D5EFD555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1447368421052632e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002ADE95515555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1447368421052632e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B2848573555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1447368421052632e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002ACEF09F1555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[59192,1],29]
+  Exit code:    24
+--------------------------------------------------------------------------
+FIXED LAMBDA_D_K correct in file
+/blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/VAC
+/blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1973684210526317e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE
+FOUND a VACUUM RUN
+FIXED LAMBDA_D_K correct in file
+FOUND ERROR IN VAC VASPRUN, COPYING FILES ANYWAY
+COPIED  WAVECAR  from VAC
+COPIED  CONTCAR  from VAC
+COPIED  POSCAR  from VAC
+COPIED  INCAR  from VAC
+COPIED  KPOINTS  from VAC
+COPIED  POTCAR  from VAC
+ADDING PROPERTIES : water
+[78.36]
+ADDING PROPERTIES : water
+LSOL Tag not Found ... adding to file now...
+NC_K Tag not Found ... adding to file now...
+TAU Tag not Found ... adding to file now...
+LRHOB Tag not Found ... adding to file now...
+[78.36]
+EB_K Tag not Found ... adding to file now...
+STARTING VASP SOLVATION CALC
+ running on   32 total cores
+ distrk:  each k-point on   32 cores,    1 groups
+ distr:  one band on    8 cores,    4 groups
+ vasp.6.3.0 20Jan22 (build Feb 18 2022 07:37:30) complex                        
+  
+ POSCAR found :  0 types and       0 ions
+ scaLAPACK will be used
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1973684210526317e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B4A6B765555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1973684210526317e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002ADD64AD5555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1973684210526317e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AB5DDD0E555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1973684210526317e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B53E64C5555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1973684210526317e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B9ED9B15555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1973684210526317e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B89B1A8E555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1973684210526317e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B726E016555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1973684210526317e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B48F7E82555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1973684210526317e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B7255012555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1973684210526317e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002ABDF82F5555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1973684210526317e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AF3AB5B6555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1973684210526317e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B7E9EFA8555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1973684210526317e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AFFA3529555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1973684210526317e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B26BD852555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1973684210526317e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AB1A358D555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1973684210526317e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002ADA8D072555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1973684210526317e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AFBDB755555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1973684210526317e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B5A237EA555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1973684210526317e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AB67BA97555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1973684210526317e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B06784E7555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1973684210526317e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B8E578C9555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1973684210526317e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002ACA33095555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1973684210526317e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B432C99B555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1973684210526317e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B7CDB57E555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1973684210526317e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B5C8D863555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1973684210526317e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AB69CC1B555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1973684210526317e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002ACB8844E555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1973684210526317e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B0EC72CD555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1973684210526317e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B2932198555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1973684210526317e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AC970622555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1973684210526317e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B4F90481555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_1.1973684210526317e-05_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AAFB86A1555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[59032,1],1]
+  Exit code:    24
+--------------------------------------------------------------------------
+FIXED LAMBDA_D_K correct in file
+/blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/VAC
+/blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_5.657894736842105e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE
+FOUND a VACUUM RUN
+FIXED LAMBDA_D_K correct in file
+FOUND ERROR IN VAC VASPRUN, COPYING FILES ANYWAY
+COPIED  WAVECAR  from VAC
+COPIED  CONTCAR  from VAC
+COPIED  POSCAR  from VAC
+COPIED  INCAR  from VAC
+COPIED  KPOINTS  from VAC
+COPIED  POTCAR  from VAC
+ADDING PROPERTIES : water
+[78.36]
+ADDING PROPERTIES : water
+LSOL Tag not Found ... adding to file now...
+NC_K Tag not Found ... adding to file now...
+TAU Tag not Found ... adding to file now...
+LRHOB Tag not Found ... adding to file now...
+[78.36]
+EB_K Tag not Found ... adding to file now...
+STARTING VASP SOLVATION CALC
+ running on   32 total cores
+ distrk:  each k-point on   32 cores,    1 groups
+ distr:  one band on    8 cores,    4 groups
+ vasp.6.3.0 20Jan22 (build Feb 18 2022 07:37:30) complex                        
+  
+ POSCAR found :  0 types and       0 ions
+ scaLAPACK will be used
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_5.657894736842105e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AD16F8FA555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_5.657894736842105e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002ABBEA52F555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_5.657894736842105e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B91FDD60555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_5.657894736842105e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B167C3EC555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_5.657894736842105e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AC44FBEF555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_5.657894736842105e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B4A0D7C0555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_5.657894736842105e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AD5E7F4B555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_5.657894736842105e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B20D262C555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_5.657894736842105e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B4E38374555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_5.657894736842105e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B9705405555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_5.657894736842105e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002BA5EB062555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_5.657894736842105e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B2270C5F555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_5.657894736842105e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B3990D9A555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_5.657894736842105e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AB828C1C555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_5.657894736842105e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AC3D9D5A555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_5.657894736842105e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B4615222555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_5.657894736842105e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B10877BA555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_5.657894736842105e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B06B2052555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_5.657894736842105e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B5C76A92555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_5.657894736842105e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B54CF7E4555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_5.657894736842105e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AC1A1FB5555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_5.657894736842105e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AC84C89F555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_5.657894736842105e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B46A88B7555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_5.657894736842105e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B4821DD1555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_5.657894736842105e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B8A28BBC555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_5.657894736842105e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AF0148FC555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_5.657894736842105e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B42D0D79555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_5.657894736842105e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B71C8F36555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_5.657894736842105e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B6977F03555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_5.657894736842105e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002B68BB03F555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_5.657894736842105e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AF32A516555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 15, file /blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_5.657894736842105e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE/POSCAR
+Image              PC                Routine            Line        Source             
+vasp_std           0000000004AE114B  for__io_return        Unknown  Unknown
+vasp_std           0000000004B174B1  for_read_seq_fmt      Unknown  Unknown
+vasp_std           0000000000624022  Unknown               Unknown  Unknown
+vasp_std           0000000004535B55  Unknown               Unknown  Unknown
+vasp_std           00000000004216D2  Unknown               Unknown  Unknown
+libc-2.17.so       00002AB22B9D2555  __libc_start_main     Unknown  Unknown
+vasp_std           00000000004215E9  Unknown               Unknown  Unknown
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[58992,1],17]
+  Exit code:    24
+--------------------------------------------------------------------------
+FIXED LAMBDA_D_K correct in file
+2023-03-04 16:30:33,258 - distributed.core - INFO - Connection to tcp://10.13.55.17:40034 has been closed.
+2023-03-04 16:30:33,259 - distributed.worker - INFO - Stopping worker at tcp://172.16.199.244:46356. Reason: worker-handle-scheduler-connection-broken
+2023-03-04 16:30:33,261 - distributed.nanny - INFO - Closing Nanny gracefully at 'tcp://172.16.199.244:37435'. Reason: worker-handle-scheduler-connection-broken
+2023-03-04 16:30:33,263 - distributed.nanny - INFO - Worker closed
+2023-03-04 16:30:35,759 - distributed.nanny - INFO - Closing Nanny at 'tcp://172.16.199.244:37435'. Reason: nanny-close-gracefully
+2023-03-04 16:30:35,759 - distributed.dask_worker - INFO - End worker
