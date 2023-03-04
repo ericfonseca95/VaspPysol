@@ -738,3 +738,5 @@ RMM:  89    -0.138733843628E+03    0.34617E-02   -0.56769E-02   160   0.361E+00 
  1
  SHAPE GADN 
  calculating shape function 
+SOL:  90  -0.28428E-02    0.52239E+00    0.51955E+00    92
+ Writing RHOB

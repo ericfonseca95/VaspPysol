@@ -593,3 +593,10 @@ RMM:  75     0.255577936626E+04   -0.18941E+02   -0.56290E+02   160   0.120E+03 
  1
  SHAPE GADN 
  calculating shape function 
+SOL:  76  -0.21246E+03    0.17510E+00   -0.21228E+03   122
+ Writing RHOB
+  FERMI_SHIFT =   4.375680049371100E-002
+RMM:  76     0.291340262360E+04    0.35762E+03    0.23241E+03   160   0.642E+03    0.401E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
