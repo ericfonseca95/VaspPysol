@@ -25,6 +25,7 @@ import pickle
 import datetime
 import kmodels as kmk
 import shutil
+import matplotlib.pyplot as plt
 
 
 def get_X_solute(df):
@@ -107,7 +108,7 @@ print(default_df)
 
 # get the number of unique groups
 # using the groups split of the dataframe so that unique combos of NC_K, SIGMA_K, and TAU are in each group
-split = 0.99
+split = 0.5
 ## get the unique groups
 #groups = df.groupby(['NC_K', 'SIGMA_K', 'TAU'])
 # get the indicies of the groups
@@ -191,7 +192,6 @@ losses = kmk.run_Pytorch(model, X_train, y_train,
                                                           lr=lr,
                                                           weight_decay=0.001))
 
-import matplotlib.pyplot as plt
 # create a professional learning curve plot function
 def plot_learning_curve(losses, title=None, save=False, filename=None):
     plt.plot(losses)

@@ -355,3 +355,1093 @@ RMM:  41     0.318631961343E+04   -0.10013E+03   -0.62086E+02   160   0.172E+03 
  1
  SHAPE GADN 
  calculating shape function 
+SOL:  42  -0.37020E+03    0.34381E+00   -0.36986E+03   123
+ Writing RHOB
+  FERMI_SHIFT =   4.375686787636202E-002
+RMM:  42     0.307150608514E+04   -0.11481E+03   -0.95544E+02   160   0.271E+03    0.194E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  43  -0.36520E+03    0.34315E+00   -0.36486E+03   126
+ Writing RHOB
+  FERMI_SHIFT =   4.375686787890976E-002
+RMM:  43     0.313337095206E+04    0.61865E+02   -0.12217E+03   160   0.340E+03    0.197E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  44  -0.36160E+03    0.34032E+00   -0.36126E+03   122
+ Writing RHOB
+  FERMI_SHIFT =   4.375686788008304E-002
+RMM:  44     0.309167019649E+04   -0.41701E+02   -0.41158E+02   160   0.151E+03    0.199E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  45  -0.32093E+03    0.33560E+00   -0.32059E+03   124
+ Writing RHOB
+  FERMI_SHIFT =   4.375686788161515E-002
+RMM:  45     0.305147427857E+04   -0.40196E+02   -0.98880E+02   160   0.232E+03    0.205E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  46  -0.30075E+03    0.32921E+00   -0.30042E+03   124
+ Writing RHOB
+  FERMI_SHIFT =   4.375686788310507E-002
+RMM:  46     0.301210168335E+04   -0.39373E+02   -0.86641E+02   160   0.180E+03    0.206E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  47  -0.18296E+03    0.36494E+00   -0.18259E+03   126
+ Writing RHOB
+  FERMI_SHIFT =   4.375686788465982E-002
+RMM:  47     0.312470427450E+04    0.11260E+03   -0.73778E+02   160   0.120E+03    0.204E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  48  -0.19534E+03    0.36013E+00   -0.19498E+03   122
+ Writing RHOB
+  FERMI_SHIFT =   4.375686788692290E-002
+RMM:  48     0.323868489759E+04    0.11398E+03    0.13750E+03   160   0.746E+02    0.205E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  49  -0.19921E+03    0.37165E+00   -0.19884E+03   120
+ Writing RHOB
+  FERMI_SHIFT =   4.375686788581845E-002
+RMM:  49     0.334024459292E+04    0.10156E+03    0.13541E+03   160   0.379E+03    0.275E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  50  -0.19222E+03    0.36281E+00   -0.19186E+03   121
+ Writing RHOB
+  FERMI_SHIFT =   4.375686788380673E-002
+RMM:  50     0.321567407946E+04   -0.12457E+03   -0.52594E+02   160   0.870E+02    0.275E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  51  -0.20387E+03    0.34810E+00   -0.20352E+03   125
+ Writing RHOB
+  FERMI_SHIFT =   4.375686788547961E-002
+RMM:  51     0.335036518493E+04    0.13469E+03    0.12750E+03   160   0.686E+02    0.263E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  52  -0.23098E+03    0.38499E+00   -0.23059E+03   124
+ Writing RHOB
+  FERMI_SHIFT =   4.375686788444222E-002
+RMM:  52     0.325512074047E+04   -0.95244E+02   -0.93437E+02   160   0.177E+03    0.266E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  53  -0.23410E+03    0.38875E+00   -0.23372E+03   121
+ Writing RHOB
+  FERMI_SHIFT =   4.375686788650679E-002
+RMM:  53     0.318910999452E+04   -0.66011E+02   -0.10145E+03   160   0.359E+03    0.264E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  54  -0.23612E+03    0.39866E+00   -0.23572E+03   120
+ Writing RHOB
+  FERMI_SHIFT =   4.375686788980682E-002
+RMM:  54     0.315696418215E+04   -0.32146E+02   -0.42773E+02   160   0.824E+02    0.267E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  55  -0.23196E+03    0.40453E+00   -0.23156E+03   119
+ Writing RHOB
+  FERMI_SHIFT =   4.375686789199085E-002
+RMM:  55     0.311142063373E+04   -0.45544E+02   -0.58571E+02   160   0.122E+03    0.271E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  56  -0.23920E+03    0.40933E+00   -0.23879E+03   124
+ Writing RHOB
+  FERMI_SHIFT =   4.375686789372990E-002
+RMM:  56     0.305574124152E+04   -0.55679E+02   -0.87892E+02   160   0.224E+03    0.271E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  57  -0.28978E+03    0.38589E+00   -0.28939E+03   128
+ Writing RHOB
+  FERMI_SHIFT =   4.375686789500666E-002
+RMM:  57     0.298691899489E+04   -0.68822E+02   -0.13439E+03   160   0.232E+03    0.262E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  58  -0.31597E+03    0.45534E+00   -0.31552E+03   127
+ Writing RHOB
+  FERMI_SHIFT =   4.376209857738544E-002
+RMM:  58     0.294743559415E+04   -0.39483E+02   -0.15124E+03   160   0.519E+03    0.265E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  59  -0.29729E+03    0.45464E+00   -0.29683E+03   124
+ Writing RHOB
+  FERMI_SHIFT =   4.375686789811262E-002
+RMM:  59     0.331641547697E+04    0.36898E+03   -0.77817E+04   160   0.172E+04    0.206E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  60  -0.31572E+03    0.47369E+00   -0.31525E+03   125
+ Writing RHOB
+  FERMI_SHIFT =   4.375686788412647E-002
+RMM:  60     0.299671264468E+04   -0.31970E+03   -0.64790E+03   160   0.183E+04    0.336E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  61  -0.40198E+03    0.47172E+00   -0.40151E+03   127
+ Writing RHOB
+  FERMI_SHIFT =   4.376209858680902E-002
+RMM:  61     0.291262091884E+04   -0.84092E+02   -0.57852E+03   160   0.756E+03    0.310E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  62  -0.58783E+03    0.45544E+00   -0.58737E+03   128
+ Writing RHOB
+  FERMI_SHIFT =   4.375686788890398E-002
+RMM:  62     0.245954227047E+04   -0.45308E+03   -0.17117E+04   160   0.220E+04    0.370E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  63  -0.60520E+03    0.44415E+00   -0.60476E+03   126
+ Writing RHOB
+  FERMI_SHIFT =   4.375686789111821E-002
+RMM:  63     0.309743141181E+04    0.63789E+03   -0.20252E+04   160   0.407E+04    0.378E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  64  -0.58887E+03    0.45792E+00   -0.58841E+03   125
+ Writing RHOB
+  FERMI_SHIFT =   4.375686788787370E-002
+RMM:  64     0.259163592054E+04   -0.50580E+03   -0.55828E+03   160   0.518E+03    0.409E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  65  -0.61204E+03    0.43223E+00   -0.61161E+03   126
+ Writing RHOB
+  FERMI_SHIFT =   4.375686789240474E-002
+RMM:  65     0.252857262663E+04   -0.63063E+02   -0.39645E+03   160   0.801E+03    0.411E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  66  -0.63973E+03    0.44672E+00   -0.63928E+03   125
+ Writing RHOB
+  FERMI_SHIFT =   4.375686789602717E-002
+RMM:  66     0.247137547098E+04   -0.57197E+02   -0.24411E+03   160   0.638E+03    0.396E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  67  -0.53974E+03    0.52018E+00   -0.53922E+03   128
+ Writing RHOB
+  FERMI_SHIFT =   4.375686789738031E-002
+RMM:  67     0.241071546302E+04   -0.60660E+02   -0.26378E+03   160   0.668E+03    0.419E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  68  -0.47003E+03    0.54245E+00   -0.46949E+03   127
+ Writing RHOB
+  FERMI_SHIFT =   4.375686790074607E-002
+RMM:  68     0.245340105425E+04    0.42686E+02   -0.15960E+03   160   0.242E+03    0.423E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  69  -0.45004E+03    0.53297E+00   -0.44951E+03   125
+ Writing RHOB
+  FERMI_SHIFT =   4.375686790403943E-002
+RMM:  69     0.242369569713E+04   -0.29705E+02   -0.10349E+03   160   0.256E+03    0.412E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  70  -0.41329E+03    0.54113E+00   -0.41275E+03   124
+ Writing RHOB
+  FERMI_SHIFT =   4.375686790572342E-002
+RMM:  70     0.230980132923E+04   -0.11389E+03   -0.14938E+03   160   0.212E+03    0.427E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  71  -0.41282E+03    0.55144E+00   -0.41227E+03   123
+ Writing RHOB
+  FERMI_SHIFT =   4.375686791114131E-002
+RMM:  71     0.222591392140E+04   -0.83887E+02   -0.26089E+03   160   0.407E+03    0.422E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  72  -0.44091E+03    0.47618E+00   -0.44043E+03   128
+ Writing RHOB
+  FERMI_SHIFT =   4.375686791392264E-002
+RMM:  72     0.222141869299E+04   -0.44952E+01   -0.12823E+03   160   0.845E+03    0.409E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  73  -0.51597E+03    0.47033E+00   -0.51550E+03   127
+ Writing RHOB
+  FERMI_SHIFT =   4.375686791467537E-002
+RMM:  73     0.223235770951E+04    0.10939E+02   -0.11799E+04   160   0.242E+04    0.375E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  74  -0.52226E+03    0.51897E+00   -0.52174E+03   126
+ Writing RHOB
+  FERMI_SHIFT =   4.375686790566480E-002
+RMM:  74     0.214109755134E+04   -0.91260E+02   -0.29575E+03   160   0.816E+03    0.408E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  75  -0.48325E+03    0.48498E+00   -0.48276E+03   125
+ Writing RHOB
+  FERMI_SHIFT =   4.375686790958566E-002
+RMM:  75     0.204144515292E+04   -0.99652E+02   -0.13597E+03   160   0.859E+03    0.427E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  76  -0.46339E+03    0.47615E+00   -0.46291E+03   126
+ Writing RHOB
+  FERMI_SHIFT =   4.375686791411448E-002
+RMM:  76     0.197277048718E+04   -0.68675E+02   -0.15683E+03   160   0.395E+03    0.435E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  77  -0.10049E+04    0.55846E+00   -0.10043E+04   130
+ Writing RHOB
+  FERMI_SHIFT =   4.375686791806110E-002
+RMM:  77     0.205923512155E+04    0.86465E+02   -0.34343E+03   160   0.137E+04    0.788E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  78  -0.92638E+03    0.58152E+00   -0.92579E+03   127
+ Writing RHOB
+  FERMI_SHIFT =   4.375686790328492E-002
+RMM:  78     0.170261124181E+04   -0.35662E+03   -0.58479E+03   160   0.743E+03    0.798E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  79  -0.95128E+03    0.56751E+00   -0.95071E+03   126
+ Writing RHOB
+  FERMI_SHIFT =   4.375686791015143E-002
+RMM:  79     0.160585898954E+04   -0.96752E+02   -0.64600E+03   160   0.863E+03    0.789E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  80  -0.93872E+03    0.58412E+00   -0.93814E+03   126
+ Writing RHOB
+  FERMI_SHIFT =   4.375686791154587E-002
+RMM:  80     0.145947754168E+04   -0.14638E+03   -0.15296E+05   160   0.298E+04    0.342E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  81  -0.95333E+03    0.54499E+00   -0.95279E+03   128
+ Writing RHOB
+  FERMI_SHIFT =   4.375686791211209E-002
+RMM:  81     0.150812700559E+04    0.48649E+02   -0.39226E+03   160   0.620E+03    0.327E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  82  -0.11928E+04    0.61718E+00   -0.11922E+04   131
+ Writing RHOB
+  FERMI_SHIFT =   4.375686791662359E-002
+RMM:  82     0.183725335682E+04    0.32913E+03   -0.53116E+03   160   0.808E+03    0.313E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  83  -0.12387E+04    0.59430E+00   -0.12381E+04   129
+ Writing RHOB
+  FERMI_SHIFT =   4.375686791293631E-002
+RMM:  83     0.226667408811E+04    0.42942E+03   -0.98799E+03   160   0.262E+04    0.377E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  84  -0.12345E+04    0.56715E+00   -0.12339E+04   129
+ Writing RHOB
+  FERMI_SHIFT =   4.375686791633449E-002
+RMM:  84     0.156643130719E+04   -0.70024E+03   -0.83905E+03   160   0.103E+04    0.299E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  85  -0.11793E+04    0.55417E+00   -0.11787E+04   128
+ Writing RHOB
+  FERMI_SHIFT =   4.375686791801359E-002
+RMM:  85     0.189752646430E+04    0.33110E+03    0.11797E+04   160   0.185E+04    0.220E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  86  -0.11948E+04    0.56304E+00   -0.11942E+04   128
+ Writing RHOB
+  FERMI_SHIFT =   4.375686789542410E-002
+RMM:  86     0.145808103403E+04   -0.43945E+03   -0.34784E+03   160   0.627E+03    0.286E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  87  -0.86465E+03    0.54248E+00   -0.86411E+03   130
+ Writing RHOB
+  FERMI_SHIFT =   4.376227385937970E-002
+RMM:  87     0.187289722556E+04    0.41482E+03   -0.15282E+03   160   0.932E+03    0.102E+02
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  88  -0.11885E+04    0.57682E+00   -0.11879E+04   130
+ Writing RHOB
+  FERMI_SHIFT =   4.376227385369980E-002
+RMM:  88     0.127089329041E+04   -0.60200E+03   -0.43960E+03   160   0.574E+03    0.336E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  89  -0.14428E+04    0.51372E+00   -0.14423E+04   130
+ Writing RHOB
+  FERMI_SHIFT =   4.376227384725961E-002
+RMM:  89     0.126385908477E+04   -0.70342E+01   -0.33455E+03   160   0.173E+04    0.294E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  90  -0.18144E+04    0.51873E+00   -0.18138E+04   130
+ Writing RHOB
+  FERMI_SHIFT =   4.376227385393650E-002
+RMM:  90     0.920480420146E+03   -0.34338E+03   -0.46575E+03   160   0.113E+04    0.318E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  91  -0.22936E+04    0.59649E+00   -0.22930E+04   130
+ Writing RHOB
+  FERMI_SHIFT =   4.376227384823039E-002
+RMM:  91     0.613576277042E+03   -0.30690E+03   -0.58488E+03   160   0.799E+03    0.291E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  92  -0.22841E+04    0.60143E+00   -0.22835E+04   132
+ Writing RHOB
+  FERMI_SHIFT =   4.375686792065148E-002
+RMM:  92     0.193917565099E+04    0.13256E+04    0.10183E+04   160   0.669E+04    0.171E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  93  -0.21388E+04    0.49405E+00   -0.21383E+04   130
+ Writing RHOB
+  FERMI_SHIFT =   4.375686784920596E-002
+RMM:  93     0.969217724887E+03   -0.96996E+03   -0.34819E+03   160   0.656E+03    0.338E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  94  -0.22150E+04    0.54923E+00   -0.22144E+04   129
+ Writing RHOB
+  FERMI_SHIFT =   4.375686789885602E-002
+RMM:  94     0.111397926554E+04    0.14476E+03   -0.72079E+03   160   0.793E+03    0.245E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  95  -0.21684E+04    0.55070E+00   -0.21678E+04   127
+ Writing RHOB
+  FERMI_SHIFT =   4.375686789897770E-002
+RMM:  95     0.108847511719E+04   -0.25504E+02   -0.63574E+03   160   0.762E+03    0.311E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  96  -0.21941E+04    0.50862E+00   -0.21936E+04   129
+ Writing RHOB
+  FERMI_SHIFT =   4.375686789584732E-002
+RMM:  96     0.789666761731E+03   -0.29881E+03   -0.13536E+03   160   0.132E+04    0.433E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  97  -0.26737E+04    0.50214E+00   -0.26732E+04   131
+ Writing RHOB
+  FERMI_SHIFT =   4.375686791586908E-002
+RMM:  97     0.438035117293E+03   -0.35163E+03   -0.67505E+03   160   0.101E+04    0.453E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  98  -0.28045E+04    0.50752E+00   -0.28040E+04   129
+ Writing RHOB
+  FERMI_SHIFT =   4.375686790875122E-002
+RMM:  98     0.275605112948E+03   -0.16243E+03   -0.81101E+03   160   0.240E+04    0.595E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  99  -0.31546E+04    0.52078E+00   -0.31541E+04   130
+ Writing RHOB
+  FERMI_SHIFT =   4.375686790661426E-002
+RMM:  99    -0.256212642737E+03   -0.53182E+03   -0.18980E+03   160   0.324E+03    0.504E+01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL: 100  -0.28074E+04    0.50755E+00   -0.28069E+04   129
+ Writing RHOB
+  FERMI_SHIFT =   4.375686791920419E-002
+RMM: 100     0.230841250612E+03    0.48705E+03   -0.20904E+03   160   0.133E+04
+ -----------------------------------------------------------------------------
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|     The electronic self-consistency was not achieved in the given           |
+|     number of steps (NELM). The forces and other quantities evaluated       |
+|     might not be reliable so examine the results carefully. If you find     |
+|     spurious results, we suggest increasing NELM, if you were close to      |
+|     convergence or switching to a different ALGO or adjusting the           |
+|     density mixing parameters otherwise.                                    |
+|                                                                             |
+ -----------------------------------------------------------------------------
+
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL: 101  -0.27844E+04    0.53805E+00   -0.27839E+04   129
+ Writing RHOB
+  FERMI_SHIFT =   4.375686791171507E-002
+   1 F= 0.23084125E+03 E0= 0.23084125E+03  d E =0.000000E+00
+ writing wavefunctions
+FIXED LAMBDA_D_K correct in file
+/home/ericfonseca/miniconda3/envs/venv/lib/python3.10/site-packages/pymatgen/io/vasp/outputs.py:412: UnconvergedVASPWarning: ./vasprun.xml is an unconverged VASP run.
+Electronic convergence reached: False.
+Ionic convergence reached: True.
+  warnings.warn(msg, UnconvergedVASPWarning)
+/blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/0008noc/VAC
+/blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/shape_animation_data/0008noc/Solvent_water_epsilon_78.4_Ionic_0_calc_linear_NC_K_6.184210526315789e-06_SIGMA_K_1.0_TAU_0.000525_LRHOB_TRUE
+FOUND a VACUUM RUN
+FIXED LAMBDA_D_K correct in file
+True
+COPIED  WAVECAR  from VAC
+COPIED  CONTCAR  from VAC
+COPIED  POSCAR  from VAC
+COPIED  INCAR  from VAC
+COPIED  KPOINTS  from VAC
+COPIED  POTCAR  from VAC
+ADDING PROPERTIES : water
+[78.36]
+ADDING PROPERTIES : water
+LSOL Tag not Found ... adding to file now...
+NC_K Tag not Found ... adding to file now...
+TAU Tag not Found ... adding to file now...
+LRHOB Tag not Found ... adding to file now...
+[78.36]
+EB_K Tag not Found ... adding to file now...
+STARTING VASP SOLVATION CALC
+ running on   32 total cores
+ distrk:  each k-point on   32 cores,    1 groups
+ distr:  one band on    8 cores,    4 groups
+ vasp.6.3.0 20Jan22 (build Feb 18 2022 07:37:30) complex                        
+  
+ POSCAR found type information on POSCAR H C 
+ POSCAR found :  2 types and      26 ions
+ scaLAPACK will be used
+ -----------------------------------------------------------------------------
+|                                                                             |
+|               ----> ADVICE to this user running VASP <----                  |
+|                                                                             |
+|     You have a (more or less) 'large supercell' and for larger cells it     |
+|     might be more efficient to use real-space projection operators.         |
+|     Therefore, try LREAL= Auto in the INCAR file.                           |
+|     Mind: For very accurate calculation, you might also keep the            |
+|     reciprocal projection scheme (i.e. LREAL=.FALSE.).                      |
+|                                                                             |
+ -----------------------------------------------------------------------------
+
+ LDA part: xc-table for Pade appr. of Perdew
+ found WAVECAR, reading the header
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ... GRIDC
+ FFT: planning ... GRID_SOFT
+ FFT: planning ... GRID
+ reading WAVECAR
+ the WAVECAR file was read successfully
+ initial charge from wavefunction
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:   1  -0.12963E-02    0.35842E+00    0.35712E+00   100
+ Writing RHOB
+  FERMI_SHIFT =   4.376331481336598E-002
+DAV:   1    -0.310702859274E+03   -0.31070E+03   -0.16866E+03    88   0.978E+00    0.907E+00
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:   2  -0.40651E+00    0.93323E+00    0.52672E+00   108
+ Writing RHOB
+  FERMI_SHIFT =   4.376269248577114E-002
+RMM:   2    -0.105943325441E+03    0.20476E+03    0.27174E+01   147   0.216E+01    0.372E+00
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:   3  -0.27485E+00    0.83417E+00    0.55932E+00   108
+ Writing RHOB
+  FERMI_SHIFT =   4.376317813063901E-002
+RMM:   3    -0.102219688297E+03    0.37236E+01    0.49837E+01   145   0.161E+01    0.271E+00
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:   4  -0.15384E+00    0.71538E+00    0.56154E+00   108
+ Writing RHOB
+  FERMI_SHIFT =   4.375616323186532E-002
+RMM:   4    -0.102795881087E+03   -0.57619E+00   -0.28761E+00   136   0.989E+00    0.196E+00
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:   5  -0.99571E-01    0.70161E+00    0.60204E+00   106
+ Writing RHOB
+  FERMI_SHIFT =   4.375616322613990E-002
+RMM:   5    -0.103288942528E+03   -0.49306E+00   -0.48420E+00   151   0.478E+00    0.157E+00
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:   6  -0.23352E-01    0.71753E+00    0.69418E+00   109
+ Writing RHOB
+  FERMI_SHIFT =   4.375653520723072E-002
+RMM:   6    -0.103184761860E+03    0.10418E+00   -0.21079E+00   130   0.399E+00    0.664E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:   7  -0.34474E-01    0.67955E+00    0.64507E+00   105
+ Writing RHOB
+  FERMI_SHIFT =   4.375642347836339E-002
+RMM:   7    -0.103310107167E+03   -0.12535E+00    0.26142E+01   144   0.812E+00    0.417E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:   8  -0.37729E-01    0.63894E+00    0.60121E+00   103
+ Writing RHOB
+  FERMI_SHIFT =   4.375637939426036E-002
+RMM:   8    -0.103525164004E+03   -0.21506E+00   -0.18887E+00   139   0.276E+00    0.283E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:   9  -0.35919E-01    0.56447E+00    0.52855E+00   104
+ Writing RHOB
+  FERMI_SHIFT =   4.375634012157653E-002
+RMM:   9    -0.103589555270E+03   -0.64391E-01   -0.10170E+00   158   0.241E+00    0.253E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  10  -0.34859E-01    0.57159E+00    0.53673E+00   103
+ Writing RHOB
+  FERMI_SHIFT =   4.376317815591402E-002
+RMM:  10    -0.103515648052E+03    0.73907E-01   -0.10591E+00   152   0.249E+00    0.115E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  11  -0.37520E-01    0.53413E+00    0.49661E+00   103
+ Writing RHOB
+  FERMI_SHIFT =   4.376322955684225E-002
+RMM:  11    -0.103580323433E+03   -0.64675E-01   -0.13452E+00   139   0.287E+00    0.161E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  12  -0.46063E-01    0.51175E+00    0.46568E+00   104
+ Writing RHOB
+  FERMI_SHIFT =   4.376325410710463E-002
+RMM:  12    -0.103621836539E+03   -0.41513E-01   -0.82357E-01   138   0.272E+00    0.114E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  13  -0.47829E-01    0.50520E+00    0.45737E+00   100
+ Writing RHOB
+  FERMI_SHIFT =   4.375622027833920E-002
+RMM:  13    -0.103701333380E+03   -0.79497E-01   -0.71168E-01   140   0.168E+00    0.991E-02
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  14  -0.48529E-01    0.49507E+00    0.44654E+00    97
+ Writing RHOB
+  FERMI_SHIFT =   4.375622027837472E-002
+RMM:  14    -0.103699629710E+03    0.17037E-02   -0.11920E-01   155   0.124E+00    0.765E-02
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  15  -0.51389E-01    0.45382E+00    0.40243E+00    98
+ Writing RHOB
+  FERMI_SHIFT =   4.376325410699666E-002
+RMM:  15    -0.103742217677E+03   -0.42588E-01   -0.27819E-01   151   0.157E+00    0.361E-02
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  16  -0.53057E-01    0.47202E+00    0.41897E+00    98
+ Writing RHOB
+  FERMI_SHIFT =   4.375619174137685E-002
+RMM:  16    -0.103706209145E+03    0.36009E-01   -0.47871E-01   145   0.169E+00    0.308E-02
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  17  -0.53626E-01    0.46478E+00    0.41116E+00    93
+ Writing RHOB
+  FERMI_SHIFT =   4.375619174148787E-002
+RMM:  17    -0.103714678006E+03   -0.84689E-02   -0.11823E-01   160   0.114E+00    0.343E-02
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  18  -0.54137E-01    0.45813E+00    0.40399E+00    95
+ Writing RHOB
+  FERMI_SHIFT =   4.376327525721352E-002
+RMM:  18    -0.103726599293E+03   -0.11921E-01   -0.14848E-01   160   0.123E+00    0.221E-02
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  19  -0.54642E-01    0.48050E+00    0.42585E+00    95
+ Writing RHOB
+  FERMI_SHIFT =   4.376329328910705E-002
+RMM:  19    -0.103708755118E+03    0.17844E-01   -0.27339E-01   151   0.167E+00    0.235E-02
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  20  -0.56972E-01    0.47526E+00    0.41829E+00    97
+ Writing RHOB
+  FERMI_SHIFT =   4.376329328909584E-002
+RMM:  20    -0.103693898222E+03    0.14857E-01   -0.84346E-02   159   0.985E-01    0.303E-02
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  21  -0.57142E-01    0.48325E+00    0.42611E+00    92
+ Writing RHOB
+  FERMI_SHIFT =   4.375619174160322E-002
+RMM:  21    -0.103683401572E+03    0.10497E-01   -0.82034E-02   159   0.895E-01    0.394E-02
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  22  -0.56249E-01    0.47796E+00    0.42171E+00    95
+ Writing RHOB
+  FERMI_SHIFT =   4.376329328905726E-002
+RMM:  22    -0.103699419023E+03   -0.16017E-01   -0.50881E-02   160   0.768E-01    0.392E-02
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  23  -0.61443E-01    0.56375E+00    0.50231E+00   100
+ Writing RHOB
+  FERMI_SHIFT =   4.375619174165246E-002
+RMM:  23    -0.103599378567E+03    0.10004E+00   -0.13478E-01   157   0.133E+00    0.504E-02
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  24  -0.60422E-01    0.55060E+00    0.49017E+00    92
+ Writing RHOB
+  FERMI_SHIFT =   4.375619174166623E-002
+RMM:  24    -0.103621868940E+03   -0.22490E-01   -0.70241E-02   159   0.879E-01    0.499E-02
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  25  -0.60285E-01    0.55130E+00    0.49102E+00    85
+ Writing RHOB
+  FERMI_SHIFT =   4.375619174168432E-002
+RMM:  25    -0.103622466901E+03   -0.59796E-03   -0.23316E-02   160   0.822E-01    0.515E-02
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  26  -0.60527E-01    0.54780E+00    0.48727E+00    90
+ Writing RHOB
+  FERMI_SHIFT =   4.375619174169110E-002
+RMM:  26    -0.103632278293E+03   -0.98114E-02   -0.54150E-02   159   0.756E-01    0.543E-02
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  27  -0.60534E-01    0.55632E+00    0.49578E+00    93
+ Writing RHOB
+  FERMI_SHIFT =   4.375619174170531E-002
+RMM:  27    -0.103621422864E+03    0.10855E-01   -0.22750E-02   160   0.792E-01    0.628E-02
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  28  -0.60749E-01    0.55620E+00    0.49545E+00    87
+ Writing RHOB
+  FERMI_SHIFT =   4.375619174169787E-002
+RMM:  28    -0.103622242285E+03   -0.81942E-03   -0.14236E-02   160   0.751E-01    0.640E-02
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  29  -0.60806E-01    0.55668E+00    0.49587E+00    81
+ Writing RHOB
+  FERMI_SHIFT =   4.375619174169537E-002
+RMM:  29    -0.103621945497E+03    0.29679E-03   -0.16248E-02   159   0.750E-01    0.651E-02
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  30  -0.60560E-01    0.56850E+00    0.50793E+00    92
+ Writing RHOB
+  FERMI_SHIFT =   4.375619174169454E-002
+RMM:  30    -0.103604413083E+03    0.17532E-01   -0.10804E-01   159   0.870E-01    0.562E-02
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  31  -0.60593E-01    0.56719E+00    0.50659E+00    84
+ Writing RHOB
+  FERMI_SHIFT =   4.375619174172657E-002
+RMM:  31    -0.103604104252E+03    0.30883E-03    0.31784E-03   160   0.604E-01    0.589E-02
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  32  -0.60099E-01    0.57901E+00    0.51891E+00    94
+ Writing RHOB
+  FERMI_SHIFT =   4.375618132091502E-002
+RMM:  32    -0.103590956948E+03    0.13147E-01   -0.11966E-01   155   0.101E+00    0.642E-02
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  33  -0.60898E-01    0.57987E+00    0.51897E+00    95
+ Writing RHOB
+  FERMI_SHIFT =   4.375619174175205E-002
+RMM:  33    -0.103592329225E+03   -0.13723E-02   -0.34417E-02   159   0.646E-01    0.706E-02
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  34  -0.60857E-01    0.59470E+00    0.53385E+00    95
+ Writing RHOB
+  FERMI_SHIFT =   4.375618132095427E-002
+RMM:  34    -0.103572470407E+03    0.19859E-01   -0.33894E-02   158   0.777E-01    0.760E-02
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  35  -0.61473E-01    0.61570E+00    0.55423E+00    96
+ Writing RHOB
+  FERMI_SHIFT =   4.376331487250773E-002
+RMM:  35    -0.103550635901E+03    0.21835E-01   -0.41060E-02   158   0.991E-01    0.819E-02
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  36  -0.62338E-01    0.70570E+00    0.64336E+00   100
+ Writing RHOB
+  FERMI_SHIFT =   4.376331487248841E-002
+RMM:  36    -0.103432239622E+03    0.11840E+00    0.99343E-02   159   0.164E+00    0.108E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  37  -0.62822E-01    0.71204E+00    0.64922E+00    96
+ Writing RHOB
+  FERMI_SHIFT =   4.376331487250401E-002
+RMM:  37    -0.103432758751E+03   -0.51913E-03   -0.15447E-01   160   0.155E+00    0.111E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  38  -0.62565E-01    0.71729E+00    0.65472E+00    94
+ Writing RHOB
+  FERMI_SHIFT =   4.376331487247892E-002
+RMM:  38    -0.103443096276E+03   -0.10338E-01   -0.25490E-01   158   0.196E+00    0.127E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  39  -0.62584E-01    0.73079E+00    0.66821E+00    89
+ Writing RHOB
+  FERMI_SHIFT =   4.376331487243790E-002
+RMM:  39    -0.103427877228E+03    0.15219E-01   -0.22751E-02   160   0.101E+00    0.122E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  40  -0.62588E-01    0.73214E+00    0.66955E+00    81
+ Writing RHOB
+  FERMI_SHIFT =   4.376331487242446E-002
+RMM:  40    -0.103433094365E+03   -0.52171E-02   -0.48847E-02   159   0.963E-01    0.125E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  41  -0.62643E-01    0.73882E+00    0.67618E+00    89
+ Writing RHOB
+  FERMI_SHIFT =   4.376331487241836E-002
+RMM:  41    -0.103400160058E+03    0.32934E-01    0.38411E-01   160   0.124E+00    0.136E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  42  -0.62558E-01    0.75162E+00    0.68907E+00    90
+ Writing RHOB
+  FERMI_SHIFT =   4.376331487247714E-002
+RMM:  42    -0.103397022668E+03    0.31374E-02   -0.10565E-01   160   0.120E+00    0.136E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  43  -0.62498E-01    0.75120E+00    0.68870E+00    84
+ Writing RHOB
+  FERMI_SHIFT =   4.376331487242802E-002
+RMM:  43    -0.103410116331E+03   -0.13094E-01   -0.13037E-01   160   0.923E-01    0.135E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  44  -0.62779E-01    0.74825E+00    0.68547E+00    92
+ Writing RHOB
+  FERMI_SHIFT =   4.376331487239532E-002
+RMM:  44    -0.103408298860E+03    0.18175E-02    0.32410E-02   160   0.129E+00    0.133E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  45  -0.62876E-01    0.74795E+00    0.68508E+00    86
+ Writing RHOB
+  FERMI_SHIFT =   4.376331487237411E-002
+RMM:  45    -0.103404096908E+03    0.42020E-02   -0.14759E-02   160   0.116E+00    0.136E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  46  -0.62898E-01    0.74969E+00    0.68679E+00    80
+ Writing RHOB
+  FERMI_SHIFT =   4.376331487238100E-002
+RMM:  46    -0.103409367023E+03   -0.52701E-02   -0.85875E-02   160   0.114E+00    0.137E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  47  -0.63779E-01    0.69023E+00    0.62645E+00    95
+ Writing RHOB
+  FERMI_SHIFT =   4.376331487236024E-002
+RMM:  47    -0.103483190804E+03   -0.73824E-01   -0.12614E-01   160   0.125E+00    0.132E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  48  -0.65249E-01    0.71004E+00    0.64479E+00    96
+ Writing RHOB
+  FERMI_SHIFT =   4.376331487232865E-002
+RMM:  48    -0.103437600792E+03    0.45590E-01   -0.15876E-01   159   0.171E+00    0.134E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  49  -0.66153E-01    0.74435E+00    0.67820E+00    97
+ Writing RHOB
+  FERMI_SHIFT =   4.376331487231055E-002
+RMM:  49    -0.103404332865E+03    0.33268E-01   -0.14490E-01   160   0.149E+00    0.132E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  50  -0.66998E-01    0.73960E+00    0.67260E+00    99
+ Writing RHOB
+  FERMI_SHIFT =   4.376331487230656E-002
+RMM:  50    -0.103414548856E+03   -0.10216E-01   -0.94192E-02   160   0.152E+00    0.138E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  51  -0.69741E-01    0.92656E+00    0.85681E+00   102
+ Writing RHOB
+  FERMI_SHIFT =   4.376331487232443E-002
+RMM:  51    -0.103199740502E+03    0.21481E+00   -0.17660E-01   160   0.217E+00    0.152E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  52  -0.68723E-01    0.82573E+00    0.75700E+00    96
+ Writing RHOB
+  FERMI_SHIFT =   4.376331487236623E-002
+RMM:  52    -0.103316610196E+03   -0.11687E+00   -0.12392E-01   160   0.158E+00    0.155E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  53  -0.68710E-01    0.82145E+00    0.75274E+00    93
+ Writing RHOB
+  FERMI_SHIFT =   4.376331487238189E-002
+RMM:  53    -0.103313681272E+03    0.29289E-02    0.69109E-02   160   0.150E+00    0.152E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  54  -0.68528E-01    0.83095E+00    0.76242E+00    92
+ Writing RHOB
+  FERMI_SHIFT =   4.376331487237178E-002
+RMM:  54    -0.103313517474E+03    0.16380E-03   -0.85866E-02   160   0.138E+00    0.160E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  55  -0.68372E-01    0.82834E+00    0.75997E+00    90
+ Writing RHOB
+  FERMI_SHIFT =   4.376331487240342E-002
+RMM:  55    -0.103314834491E+03   -0.13170E-02   -0.46513E-02   160   0.130E+00    0.161E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  56  -0.68698E-01    0.83055E+00    0.76185E+00    93
+ Writing RHOB
+  FERMI_SHIFT =   4.376331487243101E-002
+RMM:  56    -0.103305912771E+03    0.89217E-02   -0.16630E-02   160   0.129E+00    0.161E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  57  -0.68899E-01    0.83017E+00    0.76127E+00    98
+ Writing RHOB
+  FERMI_SHIFT =   4.376331487244522E-002
+RMM:  57    -0.103303687883E+03    0.22249E-02    0.14083E-01   160   0.149E+00    0.156E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  58  -0.68953E-01    0.82934E+00    0.76039E+00    86
+ Writing RHOB
+  FERMI_SHIFT =   4.376331487245139E-002
+RMM:  58    -0.103308310547E+03   -0.46227E-02   -0.48875E-02   160   0.124E+00    0.164E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  59  -0.69000E-01    0.85649E+00    0.78749E+00    96
+ Writing RHOB
+  FERMI_SHIFT =   4.376331487245327E-002
+RMM:  59    -0.103282540307E+03    0.25770E-01   -0.17271E-01   160   0.135E+00    0.160E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  60  -0.69556E-01    0.86108E+00    0.79153E+00    93
+ Writing RHOB
+  FERMI_SHIFT =   4.376331487246687E-002
+RMM:  60    -0.103266898388E+03    0.15642E-01    0.10445E-01   160   0.122E+00    0.161E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  61  -0.69839E-01    0.87030E+00    0.80046E+00    96
+ Writing RHOB
+  FERMI_SHIFT =   4.376331487245755E-002
+RMM:  61    -0.103260266091E+03    0.66323E-02   -0.11928E-01   160   0.134E+00    0.161E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  62  -0.70017E-01    0.84090E+00    0.77088E+00    96
+ Writing RHOB
+  FERMI_SHIFT =   4.376331487246704E-002
+RMM:  62    -0.103299569944E+03   -0.39304E-01   -0.90777E-03   160   0.115E+00    0.157E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  63  -0.69553E-01    0.84139E+00    0.77183E+00    97
+ Writing RHOB
+  FERMI_SHIFT =   4.376331487249796E-002
+RMM:  63    -0.103285162614E+03    0.14407E-01    0.85548E-02   160   0.134E+00    0.160E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  64  -0.69890E-01    0.84264E+00    0.77275E+00    93
+ Writing RHOB
+  FERMI_SHIFT =   4.376331487248863E-002
+RMM:  64    -0.103304904305E+03   -0.19742E-01   -0.22536E-01   160   0.127E+00    0.162E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  65  -0.69955E-01    0.84822E+00    0.77826E+00    88
+ Writing RHOB
+  FERMI_SHIFT =   4.376331487250307E-002
+RMM:  65    -0.103281664204E+03    0.23240E-01    0.13119E-01   160   0.117E+00    0.162E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  66  -0.69954E-01    0.84931E+00    0.77935E+00    92
+ Writing RHOB
+  FERMI_SHIFT =   4.376331487250418E-002
+RMM:  66    -0.103279798006E+03    0.18662E-02    0.34124E-02   160   0.103E+00    0.162E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  67  -0.65746E-01    0.80815E+00    0.74241E+00   102
+ Writing RHOB
+  FERMI_SHIFT =   4.376331487250285E-002
+RMM:  67    -0.103337228955E+03   -0.57431E-01   -0.28511E-01   160   0.174E+00    0.152E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  68  -0.64827E-01    0.79474E+00    0.72991E+00    98
+ Writing RHOB
+  FERMI_SHIFT =   4.376331487250062E-002
+RMM:  68    -0.103355697700E+03   -0.18469E-01   -0.10147E-01   160   0.181E+00    0.164E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  69  -0.64731E-01    0.79211E+00    0.72738E+00    87
+ Writing RHOB
+  FERMI_SHIFT =   4.376331487251456E-002
+RMM:  69    -0.103360014208E+03   -0.43165E-02   -0.18775E-02   160   0.153E+00    0.172E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  70  -0.64749E-01    0.79643E+00    0.73168E+00    87
+ Writing RHOB
+  FERMI_SHIFT =   4.376331487251661E-002
+RMM:  70    -0.103353190977E+03    0.68232E-02    0.21799E-02   160   0.141E+00    0.171E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  71  -0.64865E-01    0.79460E+00    0.72973E+00    87
+ Writing RHOB
+  FERMI_SHIFT =   4.376331487250801E-002
+RMM:  71    -0.103354740599E+03   -0.15496E-02   -0.11238E-04   160   0.130E+00    0.174E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  72  -0.65809E-01    0.75866E+00    0.69285E+00   105
+ Writing RHOB
+  FERMI_SHIFT =   4.376331487250151E-002
+RMM:  72    -0.103404127538E+03   -0.49387E-01   -0.70263E-01   160   0.276E+00    0.112E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  73  -0.66252E-01    0.76156E+00    0.69531E+00    91
+ Writing RHOB
+  FERMI_SHIFT =   4.376331487240120E-002
+RMM:  73    -0.103377902407E+03    0.26225E-01    0.41027E-01   160   0.172E+00    0.136E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  74  -0.67004E-01    0.77007E+00    0.70306E+00    94
+ Writing RHOB
+  FERMI_SHIFT =   4.376331487241231E-002
+RMM:  74    -0.103389916104E+03   -0.12014E-01   -0.19864E-01   160   0.136E+00    0.119E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  75  -0.67121E-01    0.78141E+00    0.71429E+00    98
+ Writing RHOB
+  FERMI_SHIFT =   4.375620491112642E-002
+RMM:  75    -0.103380345382E+03    0.95707E-02   -0.31837E-01   160   0.180E+00    0.109E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  76  -0.67655E-01    0.80611E+00    0.73845E+00    96
+ Writing RHOB
+  FERMI_SHIFT =   4.376325410651594E-002
+RMM:  76    -0.103333019626E+03    0.47326E-01    0.15471E-01   160   0.171E+00    0.123E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  77  -0.69899E-01    0.10010E+01    0.93111E+00   103
+ Writing RHOB
+  FERMI_SHIFT =   4.376331034781406E-002
+RMM:  77    -0.103065764182E+03    0.26726E+00   -0.98075E-03   160   0.244E+00    0.177E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  78  -0.71572E-01    0.10011E+01    0.92949E+00   101
+ Writing RHOB
+  FERMI_SHIFT =   4.375618132103914E-002
+RMM:  78    -0.103066513706E+03   -0.74952E-03   -0.24662E-01   160   0.211E+00    0.198E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  79  -0.71413E-01    0.99999E+00    0.92857E+00    91
+ Writing RHOB
+  FERMI_SHIFT =   4.376329328894324E-002
+RMM:  79    -0.103064203765E+03    0.23099E-02   -0.33454E-02   160   0.166E+00    0.183E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  80  -0.71274E-01    0.10031E+01    0.93186E+00    95
+ Writing RHOB
+  FERMI_SHIFT =   4.376329328890538E-002
+RMM:  80    -0.103089639377E+03   -0.25436E-01   -0.15680E-01   160   0.167E+00    0.193E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  81  -0.71375E-01    0.10059E+01    0.93453E+00    89
+ Writing RHOB
+  FERMI_SHIFT =   4.376329328889489E-002
+RMM:  81    -0.103080584335E+03    0.90550E-02   -0.73215E-03   160   0.156E+00    0.188E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  82  -0.72570E-01    0.10821E+01    0.10095E+01   104
+ Writing RHOB
+  FERMI_SHIFT =   4.376329328887818E-002
+RMM:  82    -0.103022624513E+03    0.57960E-01   -0.33307E-01   160   0.223E+00    0.215E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  83  -0.72118E-01    0.10714E+01    0.99930E+00   100
+ Writing RHOB
+  FERMI_SHIFT =   4.376329328892131E-002
+RMM:  83    -0.103046556586E+03   -0.23932E-01   -0.26143E-01   160   0.182E+00    0.207E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+SOL:  84  -0.73020E-01    0.10617E+01    0.98870E+00    97
+ Writing RHOB
+2023-03-04 22:13:06,268 - distributed.core - INFO - Connection to tcp://10.13.55.17:41869 has been closed.
+2023-03-04 22:13:06,278 - distributed.worker - INFO - Stopping worker at tcp://172.16.193.119:41146. Reason: worker-handle-scheduler-connection-broken
+2023-03-04 22:13:06,293 - distributed.nanny - INFO - Closing Nanny gracefully at 'tcp://172.16.193.119:38802'. Reason: worker-handle-scheduler-connection-broken
+  FERMI_SHIFT =   4.376329328890538E-002
+RMM:  84    -0.103078354496E+03   -0.31798E-01   -0.19897E-01   160   0.180E+00    0.193E-01
+ 1
+ SHAPE GADN 
+ calculating shape function 
+2023-03-04 22:13:36,326 - distributed.nanny - INFO - Worker closed
+2023-03-04 22:13:40,433 - distributed.nanny - INFO - Closing Nanny at 'tcp://172.16.193.119:38802'. Reason: nanny-close-gracefully
+2023-03-04 22:13:40,434 - distributed.dask_worker - INFO - End worker
