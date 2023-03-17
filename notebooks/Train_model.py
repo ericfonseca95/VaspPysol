@@ -70,11 +70,17 @@ def get_mean_df(df):
     df5 = df5.drop_duplicates()
     return df5
 
+<<<<<<< Updated upstream
 csv_path = '/blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/data/vaspsol_data_3_2_2023_balanced'
 
 #df = pd.read_csv(csv_path)
 df = dd.read_parquet(csv_path)
 df = df.compute()
+=======
+csv_path = '/blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/data/vaspsol_data_3_2_2023_balanced.csv'
+csv_path = os.path.abspath('../data/vaspsol_data_3_2_2023_balanced.csv')
+df = pd.read_csv(csv_path)
+>>>>>>> Stashed changes
 print(df)
 df['error'] = df['error'].abs()
 df = df[df['error'] < 10]
