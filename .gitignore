@@ -2,5 +2,6 @@ calculations/*
 shape_animation_data/*
 grid_search_calculations/*
 opt_calculations/*
-data/vaspsol_data_3_2_2023_balanced*
+data/vaspsol_data_3_2_2023_balanced.c*
+notebooks/vaspsol_data_3_2_2023_balanced.c*
 VaspPysol/*
