@@ -29,7 +29,7 @@ import dask.dataframe as dd
 
 
 def get_X_solute(df):
-    X = df[['volume_solute', 'area_solute', 'NC_K', 'SIGMA_K','TAU', 'default_error']]
+    X = df[['volume_solute', 'area_solute', 'NC_K', 'SIGMA_K','TAU']]
     sig_cols = [col for col in df.columns if 'sigma_solute' in col]
     sigs = df[sig_cols].to_numpy()
     X = X.to_numpy().reshape(len(df), -1)
@@ -37,7 +37,7 @@ def get_X_solute(df):
     return X
 
 def get_X_solvent(df):
-    X = df[['volume_solvent', 'area_solvent','NC_K','SIGMA_K','TAU', 'default_error']]
+    X = df[['volume_solvent', 'area_solvent','NC_K','SIGMA_K','TAU']]
     sig_cols = [col for col in df.columns if 'sigma_solvent' in col]
     sigs = df[sig_cols].to_numpy()
     X = X.to_numpy().reshape(len(df), -1)
@@ -70,11 +70,11 @@ def get_mean_df(df):
     df5 = df5.drop_duplicates()
     return df5
 
-csv_path = '/blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/data/vaspsol_data_3_2_2023_balanced'
+csv_path = '/blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/data/vaspsol_data_03_17_2023.csv'
 
-#df = pd.read_csv(csv_path)
-df = dd.read_parquet(csv_path)
-df = df.compute()
+df = pd.read_csv(csv_path)
+# df = dd.read_parquet(csv_path)
+# df = df.compute()
 print(df)
 df['error'] = df['error'].abs()
 df = df[df['error'] < 10]
@@ -102,9 +102,10 @@ TAU_default = 0.000525
 groups = df[df['Solvent']=='water'].groupby(['NC_K', 'SIGMA_K', 'TAU'])
 # print(df)
 
-#df_test = pd.read_csv(csv_path)
-df_test = dd.read_parquet(csv_path)
-df_test = df_test.compute()
+df_test = pd.read_csv(csv_path)
+
+# df_test = dd.read_parquet(csv_path)
+# df_test = df_test.compute()
 # we want the NC_K, SIGMA_K and TAU combinations that are not in 
 # the training set
 df_test = df_test[~df_test[['NC_K', 'SIGMA_K', 'TAU']].isin(df[['NC_K', 'SIGMA_K', 'TAU']]).all(axis=1)]
