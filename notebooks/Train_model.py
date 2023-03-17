@@ -25,6 +25,7 @@ import pickle
 import datetime
 import kmodels as kmk
 import shutil
+import dask.dataframe as dd
 
 
 def get_X_solute(df):
@@ -69,8 +70,11 @@ def get_mean_df(df):
     df5 = df5.drop_duplicates()
     return df5
 
-csv_path = '/blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/data/vaspsol_data_3_2_2023_balanced.csv'
-df = pd.read_csv(csv_path)
+csv_path = '/blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/data/vaspsol_data_3_2_2023_balanced'
+
+#df = pd.read_csv(csv_path)
+df = dd.read_parquet(csv_path)
+df = df.compute()
 print(df)
 df['error'] = df['error'].abs()
 df = df[df['error'] < 10]
@@ -98,7 +102,9 @@ TAU_default = 0.000525
 groups = df[df['Solvent']=='water'].groupby(['NC_K', 'SIGMA_K', 'TAU'])
 # print(df)
 
-df_test = pd.read_csv(csv_path)
+#df_test = pd.read_csv(csv_path)
+df_test = dd.read_parquet(csv_path)
+df_test = df_test.compute()
 # we want the NC_K, SIGMA_K and TAU combinations that are not in 
 # the training set
 df_test = df_test[~df_test[['NC_K', 'SIGMA_K', 'TAU']].isin(df[['NC_K', 'SIGMA_K', 'TAU']]).all(axis=1)]
