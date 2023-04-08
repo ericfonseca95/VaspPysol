@@ -1,0 +1,17 @@
+#!/bin/bash
+#SBATCH --job-name=Dask_nanny
+#SBATCH -o out_%j.log
+#SBATCH -e err_%j.log
+#SBATCH --qos=hennig
+#SBATCH --nodes=1
+#SBATCH --ntasks=2
+#SBATCH --mem-per-cpu=2000mb
+#SBATCH -t 72:00:00
+
+cd $SLURM_SUBMIT_DIR
+source ~/.bashrc
+module load intel/2020.0.166 openmpi/4.0.4 hdf5/1.10.1
+conda activate venv
+python submit_nln_jobs.py > job.log
+
+echo 'Done.'

@@ -1,0 +1,42 @@
+/home/ericfonseca/.local/lib/python3.10/site-packages/dask_jobqueue-0.8.1-py3.10.egg/dask_jobqueue/core.py:255: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/home/ericfonseca/.local/lib/python3.10/site-packages/dask_jobqueue-0.8.1-py3.10.egg/dask_jobqueue/slurm.py:49: FutureWarning: project has been renamed to account as this kwarg was used wit -A option. You are still using it (please also check config files). If you did not set account yet, project will be respected for now, but it will be removed in a future release. If you already set account, project is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/notebooks/submit_nln_jobs.py:29: FutureWarning: The default value of numeric_only in DataFrameGroupBy.mean is deprecated. In a future version, numeric_only will default to False. Either specify numeric_only or select only columns which should be valid for the function.
+  grouped_df = grouped_df.mean()
+/blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/notebooks/submit_nln_jobs.py:61: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  default_df['error'] = default_df['error'].abs()
+/blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/notebooks/submit_nln_jobs.py:138: FutureWarning: The default value of numeric_only in DataFrameGroupBy.mean is deprecated. In a future version, numeric_only will default to False. Either specify numeric_only or select only columns which should be valid for the function.
+  ml_df[(ml_df['FileHandle'].isin(fnames_to_run))].groupby(['NC_K','SIGMA_K','TAU']).mean()
+Traceback (most recent call last):
+  File "/blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/notebooks/submit_nln_jobs.py", line 141, in <module>
+    jobs = client.gather(jobs)
+  File "/home/ericfonseca/miniconda3/envs/venv/lib/python3.10/site-packages/distributed/client.py", line 2294, in gather
+    return self.sync(
+  File "/home/ericfonseca/miniconda3/envs/venv/lib/python3.10/site-packages/distributed/utils.py", line 339, in sync
+    return sync(
+  File "/home/ericfonseca/miniconda3/envs/venv/lib/python3.10/site-packages/distributed/utils.py", line 406, in sync
+    raise exc.with_traceback(tb)
+  File "/home/ericfonseca/miniconda3/envs/venv/lib/python3.10/site-packages/distributed/utils.py", line 379, in f
+    result = yield future
+  File "/home/ericfonseca/miniconda3/envs/venv/lib/python3.10/site-packages/tornado/gen.py", line 769, in run
+    value = future.result()
+  File "/home/ericfonseca/miniconda3/envs/venv/lib/python3.10/site-packages/distributed/client.py", line 2157, in _gather
+    raise exception.with_traceback(traceback)
+  File "/blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/notebooks/submit_nln_jobs.py", line 79, in solv_calc
+    return vs.calculate_solvent(file, NSW=0, solvent='water', calc_type='non-linear', dict_of_additional_tags={'NC_K':nc, 'SIGMA_K':sig, 'TAU':tau})
+  File "/home/ericfonseca/miniconda3/envs/venv/lib/python3.10/site-packages/VASPsol/VASPsol.py", line 362, in calculate_solvent
+    sh.copy(solv_dir + '/CONTCAR', solv_dir + '/POSCAR')
+  File "/home/ericfonseca/miniconda3/envs/venv/lib/python3.10/shutil.py", line 417, in copy
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/home/ericfonseca/miniconda3/envs/venv/lib/python3.10/shutil.py", line 256, in copyfile
+    with open(dst, 'wb') as fdst:
+OSError: [Errno 122] Disk quota exceeded
+/home/ericfonseca/.local/lib/python3.10/site-packages/dask_jobqueue-0.8.1-py3.10.egg/dask_jobqueue/core.py:255: FutureWarning: job_extra has been renamed to job_extra_directives. You are still using it (even if only set to []; please also check config files). If you did not set job_extra_directives yet, job_extra will be respected for now, but it will be removed in a future release. If you already set job_extra_directives, job_extra is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)
+/home/ericfonseca/.local/lib/python3.10/site-packages/dask_jobqueue-0.8.1-py3.10.egg/dask_jobqueue/slurm.py:49: FutureWarning: project has been renamed to account as this kwarg was used wit -A option. You are still using it (please also check config files). If you did not set account yet, project will be respected for now, but it will be removed in a future release. If you already set account, project is ignored and you can remove it.
+  warnings.warn(warn, FutureWarning)

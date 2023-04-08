@@ -70,7 +70,7 @@ def get_mean_df(df):
     df5 = df5.drop_duplicates()
     return df5
 
-csv_path = '/blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/data/vaspsol_data_03_17_2023.csv'
+csv_path = '/blue/hennig/ericfonseca/NASA/VASPsol/Truhlar_Benchmarks/VaspPysol/data/vaspsol_data_03_19_2023.csv'
 
 df = pd.read_csv(csv_path)
 # df = dd.read_parquet(csv_path)
